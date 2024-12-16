@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site com Menu Dinâmico</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Conteúdo Dinâmico -->
+    <main id="conteudo">
+        <h1>Bem-vindo!</h1>
+        <p>Selecione um link no menu para visualizar o conteúdo.</p>
+    </main>
+
+     <!-- Menu -->
+    <nav>
+        <ul>
+        <li><a href="#" onclick="trocarConteudo('Sobre')">Sobre mim</a></li>
+        <li><a href="#" onclick="trocarConteudo('Educação')">Educação</a></li>
+        <li><a href="#" onclick="trocarConteudo('Experiência')">Experiência</a></li>
+        <li><a href="#" onclick="trocarConteudo('Idiomas')">Idiomas</a></li>
+        </ul>
+    </nav>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+</html>
